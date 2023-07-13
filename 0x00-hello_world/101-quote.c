@@ -1,7 +1,9 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
- * main - A program that prints a line to the standard error
+ * main - Entry point
+ *
+ * Description: 'texthere'
+ *
  * Return 1
  */
 int main(void)
