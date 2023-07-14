@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: 'Print numbe of base 10 using putchar'
+ * Description: 'Print numbe of base 10'
  * Return: Always 0
  */
 int main(void)
 {
 	int n;
 
-	for n = 0; n <= 9; n++)
+	for (n = 0; n <= 9; n++)
 	{
-		putchar(n + 48);
+		printf("%d", n);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
