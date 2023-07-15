@@ -1,23 +1,23 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
- * Description: 'print alphabet except q and e'
- * Rturn: Always 0
+ *
+ * Description: Prints the alphabet in lowercase, excluding 'q' and 'e'.
+ *
+ * Rturn: Always 0 (Success)
  */
 int main(void)
 {
-	int n = 97;
+	char letter;
 
-	while (n <= 122)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (n == 101 || n == 113)
-		{
-			n++;
-			continue;
-		}
-		putchar(n);
-		n++;
+		if (letter != 'q' && letter != 'e')
+			putchar (letter);
 	}
+
 	putchar('\n');
+
 	return (0);
 }
