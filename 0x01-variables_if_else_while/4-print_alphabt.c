@@ -4,6 +4,7 @@
  * main - Entry point
  *
  * Description: Prints the alphabet in lowercase, excluding 'q' and 'e'.
+ * separated by commas
  *
  * Rturn: Always 0 (Success)
  */
