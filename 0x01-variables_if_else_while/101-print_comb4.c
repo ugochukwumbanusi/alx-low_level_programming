@@ -6,24 +6,23 @@
  */
 int main(void)
 {
-int i, j;
-for (i = 0; i <= 98; i++)
+int d, p, q;
+for (d = '0'; d < '9'; d++)
 {
-for (j = i + 1; j <= 99; j++)
+for (p = d + 1; p <= '9' p++)
 {
-putchar(i / 10 + '0');
-putchar(i % 10 + '0');
-putchar(' ');
-putchar(j / 10 + '0');
-putchar(j % 10 + '0');
-if (i != 98 || j != 99)
+if (( p != d) != q)
 {
+putchar(d);
+putchar(p);
+putchar(q);
+if (d == '7' && p == '8')
+continue;
 putchar(',');
 putchar(' ');
 }
 }
 }
 putchar('\n');
-
 return (0);
 }
