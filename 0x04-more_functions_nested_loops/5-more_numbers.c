@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * more_nunbers -print numbers from 0-14 10 times
+ * more_numbers -print 10 times all number starting from 0 t0 14
  * Return: void
  */
 void more_numbers(void)
