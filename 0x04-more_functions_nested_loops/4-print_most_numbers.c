@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_most_numbers -prints 01356789
- * @c:The print digit numbers from 0 to 9
  * Return: void
  */
 void print_most_numbers(void)
