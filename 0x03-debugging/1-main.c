@@ -1,7 +1,7 @@
 #include <stdio.h>
-
 /**
 * main - causes an infinite loop
+*Description: The infinite loop incoming and loop avoided are \\o/\n
 * Return: 0
 */
 
