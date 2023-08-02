@@ -2,8 +2,11 @@
 /**
  * sqrt_a - return the natural square root of
  * a number
+ * @a: input integer
+ * @b: input integer
  * @n: input number
  * @c: iterator
+ * sqrt_recursion - return the natural square root of
  * Return: square root or -1
  */
 
