@@ -1,5 +1,5 @@
 #include <stdli8b.h>
-
+#include <stdio.h>>
 
 /**
  * create_array - create array of size size and assign char c
