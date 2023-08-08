@@ -1,7 +1,8 @@
+#include "main.h"
 #include <stdlib.h>
 
 /**
- * create_array - create array of size size and assign char c
+ * create_array - create array of char
  * @size: size of array
  * @c: char to assign
  * Description: create array of size size and assign char c
@@ -9,10 +10,18 @@
  */
 char *create_array(unsigned int size, char c)
 {
-char *array = malloc(size);
-if (size == 0 || array == 0)
-return (NULL);
-while (size--)
-array[size] = c;
-return (array);
+	unsigned int i;
+	char *s;
+
+	if (size == 0)
+		return (NULL);
+	s = malloc(size * sizeof(char));
+
+	if (s == NULL)
+		return (NULL);
+	for (i = 0; i < size; i++)
+	{
+		s[i] = c;
+	}
+	return (s);
 }
